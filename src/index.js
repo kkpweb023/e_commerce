@@ -11,7 +11,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
   <React.StrictMode>
-    <BrowserRouter basename="/e-commerce">
+    <BrowserRouter basename="/e_commerce">
       <App />
     </BrowserRouter>
   </React.StrictMode>
