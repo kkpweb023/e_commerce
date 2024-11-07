@@ -187,7 +187,7 @@ function App() {
 
         <NavBar />
 
-        <Routes basename="/e-commerce">
+        <Routes basename="/e_commerce">
 
           <Route path='/' element={<Products />} />
 
