@@ -1,0 +1,23 @@
+.edit_icon{
+
+       cursor: pointer;
+       color : rgb(102, 8, 8);
+       font-size: large;
+}
+
+.edit_icon >i{
+    display: none;
+    position: absolute;
+    right: 40px;
+}
+
+.card-body > input{
+
+    display: none;
+}
+
+.payment:hover >.edit_icon>i{
+     display: block;
+}
+
+

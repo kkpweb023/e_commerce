@@ -1,0 +1,23 @@
+.footer{
+
+    position:relative;
+    top:100vh;
+}
+
+.form-control{
+
+    width:70%;
+}
+
+.footer-btn{
+
+    position: absolute;
+    right:141px;
+    top:48px;
+    background-color: orange;
+    font-weight: bold;
+    padding:7px;
+    border: none;
+}
+
+

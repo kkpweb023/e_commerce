@@ -1,0 +1,32 @@
+.success_close{
+    font-size:25px;
+    position:relative;
+    left:460px;
+    top:5px;
+    cursor: pointer;
+
+
+}
+
+.success >.bi{
+
+    color: rgb(26, 170, 91);
+    font-size:80px;
+}
+
+.succ_img{
+
+    width:100px;
+
+}
+
+.order > .h5{
+
+    color: gray;
+    text-align: center;
+}
+
+.failure >img{
+
+    width:300px;
+}

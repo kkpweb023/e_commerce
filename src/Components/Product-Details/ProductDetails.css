@@ -1,0 +1,120 @@
+.breadcrumb {
+  background-color: rgb(238, 236, 236);
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.breadcrumb-item > a {
+  text-decoration-line: none;
+}
+
+.img-productDetails-fluid {
+  width: 100%;
+}
+
+.product-img-small img {
+  max-width: 9rem;
+  padding: 0.4rem;
+}
+
+.product-img-small img:hover {
+  border: 2px solid rgb(25, 25, 26);
+  padding: 0.1rem;
+  cursor: pointer;
+  margin-top: 9px;
+}
+
+.img-zoom {
+  border-radius: 5px;
+  z-index: 99;
+  position: absolute;
+  right: 8px;
+  width: 43%;
+  height: 82vh;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  display: none;
+}
+
+.product-img-big {
+  height: fit-content;
+  cursor: pointer;
+}
+
+.product-img-big:hover ~ .img-zoom {
+  display: block;
+}
+
+.btn-div > button {
+  width: 49%;
+}
+
+.container {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.color-lebel {
+  border-radius: 50% !important;
+  margin-right: 8px;
+  padding: 3px 7px;
+}
+
+.color-lebel i {
+  opacity: 0;
+}
+
+.btn-check:checked + .color-lebel i {
+  opacity: 1;
+}
+
+.accordion-button {
+  background-color: rgb(207, 207, 207);
+  padding: 8px;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+  color: white;
+  background-color: rgb(78, 78, 78);
+  padding: 8px;
+}
+
+.accordion-body {
+  font-size: 14px;
+  color: grey;
+}
+
+.accordion-body > div {
+  display: flex;
+  justify-content: space-between;
+  line-height: 35px;
+}
+
+@media (max-width: 600px) {
+  .product-img-small img {
+    width: 5rem;
+  }
+
+  .product-img-big:hover ~ .img-zoom {
+    display: none;
+  }
+}
+
+@media (max-width: 400px) {
+  .product-img-small img {
+    max-width: 4rem;
+  }
+
+  .btn-div > button {
+    width: 100%;
+  }
+}
+
+@media (max-width: 360px) {
+  .product-img-small img {
+    max-width: 3rem;
+  }
+}

@@ -1,0 +1,57 @@
+
+
+.payment_div{
+    width: 35rem; 
+    margin-right: 30px;
+    
+}
+
+.payment_div >form{
+
+    border: 1px solid rgb(255, 255, 255);
+   
+    
+}
+
+.save-item{
+
+    border: 1px solid rgb(221, 220, 220);
+    width:95%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  
+}
+
+
+@media (max-width:1100px) {
+
+    .Card_show_div{
+        flex-direction: column;
+    }
+
+    .payment_div{
+       margin-left:7%;
+       width:80%;
+    }
+
+    .save-list{
+        margin-left:10%;
+        width: 80%; 
+    }  
+}
+
+
+
+@media (max-width:800px) {
+
+
+    .payment_div{
+       margin-left:5%;
+       width:90%;
+    }
+
+    .save-list{
+        margin-left:7%;
+        width:90%;
+       
+    }  
+}
